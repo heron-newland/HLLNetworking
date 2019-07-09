@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B101CCB219BB0E700547DC9 /* HLLNetHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B101CCA219BB0E700547DC9 /* HLLNetHeaders.swift */; };
+		5B101CCD219BBBB300547DC9 /* HLLNetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B101CCC219BBBB300547DC9 /* HLLNetManager.swift */; };
+		5B101CCF219BD03400547DC9 /* HLLNetUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B101CCE219BD03400547DC9 /* HLLNetUtil.swift */; };
+		5B508FD91FF0A40700C74FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B508FD81FF0A40700C74FB3 /* AppDelegate.swift */; };
+		5B508FDB1FF0A40700C74FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B508FDA1FF0A40700C74FB3 /* ViewController.swift */; };
+		5B508FDE1FF0A40700C74FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B508FDC1FF0A40700C74FB3 /* Main.storyboard */; };
+		5B508FE01FF0A40700C74FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B508FDF1FF0A40700C74FB3 /* Assets.xcassets */; };
+		5B508FE31FF0A40700C74FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B508FE11FF0A40700C74FB3 /* LaunchScreen.storyboard */; };
+		5B508FEE1FF0A40700C74FB3 /* HLLNetWorkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B508FED1FF0A40700C74FB3 /* HLLNetWorkingTests.swift */; };
+		5B508FF91FF0A40700C74FB3 /* HLLNetWorkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B508FF81FF0A40700C74FB3 /* HLLNetWorkingUITests.swift */; };
+		5B5090071FF0A5CD00C74FB3 /* HLLNetFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5090061FF0A5CD00C74FB3 /* HLLNetFactory.swift */; };
+		5B50900C1FF0A60200C74FB3 /* HLLNetFactoryAFN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50900B1FF0A60200C74FB3 /* HLLNetFactoryAFN.swift */; };
+		5B50900E1FF0A63B00C74FB3 /* HLLNetFactoryAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50900D1FF0A63B00C74FB3 /* HLLNetFactoryAlamofire.swift */; };
+		5B5090101FF0A65500C74FB3 /* HLLNetFactoryURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50900F1FF0A65500C74FB3 /* HLLNetFactoryURLSession.swift */; };
+		5B5090121FF0A67800C74FB3 /* HLLURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5090111FF0A67800C74FB3 /* HLLURLSession.swift */; };
+		5B5090181FF0A6C800C74FB3 /* HLLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5090171FF0A6C800C74FB3 /* HLLSession.swift */; };
+		5B50901A1FF0A7FF00C74FB3 /* HLLAFNSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5090191FF0A7FF00C74FB3 /* HLLAFNSession.swift */; };
+		5B50901C1FF0A80B00C74FB3 /* HLLAlamofireSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50901B1FF0A80B00C74FB3 /* HLLAlamofireSession.swift */; };
+		5B50901E1FF0AB6700C74FB3 /* HLLURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50901D1FF0AB6700C74FB3 /* HLLURLProtocol.swift */; };
+		5BE75AE1219A7A9500E1BDFA /* HLLNetConsistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE75AE0219A7A9500E1BDFA /* HLLNetConsistance.swift */; };
+		5BE75AE3219AB7FF00E1BDFA /* HLLNetResponseProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE75AE2219AB7FF00E1BDFA /* HLLNetResponseProcessor.swift */; };
+		5BE75AE7219ABDCA00E1BDFA /* HLLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE75AE6219ABDCA00E1BDFA /* HLLViewModel.swift */; };
+		5BE75AE9219ABE9300E1BDFA /* HLLTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE75AE8219ABE9300E1BDFA /* HLLTextView.swift */; };
+		E330ABA8536AE656F256E1F2 /* Pods_HLLNetWorkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16762233B0A9D73B3A7F334E /* Pods_HLLNetWorkingUITests.framework */; };
+		F6D8DE68EDC3C35BD7B8849B /* Pods_HLLNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FC0AD636E4205A02D22A6F /* Pods_HLLNetWorking.framework */; };
+		FD27FEE43CD436817D8140F8 /* Pods_HLLNetWorkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBA4967EAA620D89227208E /* Pods_HLLNetWorkingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B508FEA1FF0A40700C74FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B508FCD1FF0A40700C74FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B508FD41FF0A40700C74FB3;
+			remoteInfo = HLLNetWorking;
+		};
+		5B508FF51FF0A40700C74FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B508FCD1FF0A40700C74FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B508FD41FF0A40700C74FB3;
+			remoteInfo = HLLNetWorking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09BBBB866E426DD1D88432BA /* Pods-HLLNetWorkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLNetWorkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLLNetWorkingTests/Pods-HLLNetWorkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13E585956E54586C858144DE /* Pods-HLLNetWorkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLNetWorkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLLNetWorkingUITests/Pods-HLLNetWorkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		16762233B0A9D73B3A7F334E /* Pods_HLLNetWorkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLLNetWorkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5BF723B4FEE585EDAE36AD /* Pods-HLLNetWorkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLNetWorkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLLNetWorkingTests/Pods-HLLNetWorkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		28CED698688A64D85AB2E90F /* Pods-HLLNetWorkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLNetWorkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLLNetWorkingUITests/Pods-HLLNetWorkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FBA4967EAA620D89227208E /* Pods_HLLNetWorkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLLNetWorkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B101CCA219BB0E700547DC9 /* HLLNetHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetHeaders.swift; sourceTree = "<group>"; };
+		5B101CCC219BBBB300547DC9 /* HLLNetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetManager.swift; sourceTree = "<group>"; };
+		5B101CCE219BD03400547DC9 /* HLLNetUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetUtil.swift; sourceTree = "<group>"; };
+		5B508FD51FF0A40700C74FB3 /* HLLNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLLNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B508FD81FF0A40700C74FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B508FDA1FF0A40700C74FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B508FDD1FF0A40700C74FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B508FDF1FF0A40700C74FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B508FE21FF0A40700C74FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B508FE41FF0A40700C74FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B508FE91FF0A40700C74FB3 /* HLLNetWorkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLNetWorkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B508FED1FF0A40700C74FB3 /* HLLNetWorkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetWorkingTests.swift; sourceTree = "<group>"; };
+		5B508FEF1FF0A40700C74FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B508FF41FF0A40700C74FB3 /* HLLNetWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLNetWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B508FF81FF0A40700C74FB3 /* HLLNetWorkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetWorkingUITests.swift; sourceTree = "<group>"; };
+		5B508FFA1FF0A40700C74FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5090061FF0A5CD00C74FB3 /* HLLNetFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetFactory.swift; sourceTree = "<group>"; };
+		5B50900B1FF0A60200C74FB3 /* HLLNetFactoryAFN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetFactoryAFN.swift; sourceTree = "<group>"; };
+		5B50900D1FF0A63B00C74FB3 /* HLLNetFactoryAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetFactoryAlamofire.swift; sourceTree = "<group>"; };
+		5B50900F1FF0A65500C74FB3 /* HLLNetFactoryURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetFactoryURLSession.swift; sourceTree = "<group>"; };
+		5B5090111FF0A67800C74FB3 /* HLLURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLURLSession.swift; sourceTree = "<group>"; };
+		5B5090171FF0A6C800C74FB3 /* HLLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLSession.swift; sourceTree = "<group>"; };
+		5B5090191FF0A7FF00C74FB3 /* HLLAFNSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLAFNSession.swift; sourceTree = "<group>"; };
+		5B50901B1FF0A80B00C74FB3 /* HLLAlamofireSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLAlamofireSession.swift; sourceTree = "<group>"; };
+		5B50901D1FF0AB6700C74FB3 /* HLLURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLURLProtocol.swift; sourceTree = "<group>"; };
+		5BE75AE0219A7A9500E1BDFA /* HLLNetConsistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetConsistance.swift; sourceTree = "<group>"; };
+		5BE75AE2219AB7FF00E1BDFA /* HLLNetResponseProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLNetResponseProcessor.swift; sourceTree = "<group>"; };
+		5BE75AE6219ABDCA00E1BDFA /* HLLViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLViewModel.swift; sourceTree = "<group>"; };
+		5BE75AE8219ABE9300E1BDFA /* HLLTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLTextView.swift; sourceTree = "<group>"; };
+		9D4FF549DFCB90BEBE7D120A /* Pods-HLLNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLNetWorking.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLLNetWorking/Pods-HLLNetWorking.release.xcconfig"; sourceTree = "<group>"; };
+		CBAE670A77B678B83411C1CD /* Pods-HLLNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLNetWorking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLLNetWorking/Pods-HLLNetWorking.debug.xcconfig"; sourceTree = "<group>"; };
+		F4FC0AD636E4205A02D22A6F /* Pods_HLLNetWorking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLLNetWorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B508FD21FF0A40700C74FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D8DE68EDC3C35BD7B8849B /* Pods_HLLNetWorking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B508FE61FF0A40700C74FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD27FEE43CD436817D8140F8 /* Pods_HLLNetWorkingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B508FF11FF0A40700C74FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E330ABA8536AE656F256E1F2 /* Pods_HLLNetWorkingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435DA3B4C7C3E55587608172 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE670A77B678B83411C1CD /* Pods-HLLNetWorking.debug.xcconfig */,
+				9D4FF549DFCB90BEBE7D120A /* Pods-HLLNetWorking.release.xcconfig */,
+				09BBBB866E426DD1D88432BA /* Pods-HLLNetWorkingTests.debug.xcconfig */,
+				1E5BF723B4FEE585EDAE36AD /* Pods-HLLNetWorkingTests.release.xcconfig */,
+				28CED698688A64D85AB2E90F /* Pods-HLLNetWorkingUITests.debug.xcconfig */,
+				13E585956E54586C858144DE /* Pods-HLLNetWorkingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B101CE7219BF88E00547DC9 /* HLLNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				5BE75AE5219ABA5200E1BDFA /* DataProcessor */,
+				5BE75AE4219ABA0D00E1BDFA /* Configure */,
+				5B5090081FF0A5D200C74FB3 /* Factory */,
+				5B5090091FF0A5D700C74FB3 /* Product */,
+			);
+			path = HLLNetWorking;
+			sourceTree = "<group>";
+		};
+		5B508FCC1FF0A40700C74FB3 = {
+			isa = PBXGroup;
+			children = (
+				5B508FD71FF0A40700C74FB3 /* HLLNetWorking */,
+				5B508FEC1FF0A40700C74FB3 /* HLLNetWorkingTests */,
+				5B508FF71FF0A40700C74FB3 /* HLLNetWorkingUITests */,
+				5B508FD61FF0A40700C74FB3 /* Products */,
+				435DA3B4C7C3E55587608172 /* Pods */,
+				B83C8745C3B626087C08AAA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B508FD61FF0A40700C74FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B508FD51FF0A40700C74FB3 /* HLLNetWorking.app */,
+				5B508FE91FF0A40700C74FB3 /* HLLNetWorkingTests.xctest */,
+				5B508FF41FF0A40700C74FB3 /* HLLNetWorkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B508FD71FF0A40700C74FB3 /* HLLNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				5B508FD81FF0A40700C74FB3 /* AppDelegate.swift */,
+				5B508FDA1FF0A40700C74FB3 /* ViewController.swift */,
+				5BE75AE6219ABDCA00E1BDFA /* HLLViewModel.swift */,
+				5BE75AE8219ABE9300E1BDFA /* HLLTextView.swift */,
+				5B508FDC1FF0A40700C74FB3 /* Main.storyboard */,
+				5B508FDF1FF0A40700C74FB3 /* Assets.xcassets */,
+				5B508FE11FF0A40700C74FB3 /* LaunchScreen.storyboard */,
+				5B508FE41FF0A40700C74FB3 /* Info.plist */,
+				5B101CE7219BF88E00547DC9 /* HLLNetWorking */,
+			);
+			path = HLLNetWorking;
+			sourceTree = "<group>";
+		};
+		5B508FEC1FF0A40700C74FB3 /* HLLNetWorkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B508FED1FF0A40700C74FB3 /* HLLNetWorkingTests.swift */,
+				5B508FEF1FF0A40700C74FB3 /* Info.plist */,
+			);
+			path = HLLNetWorkingTests;
+			sourceTree = "<group>";
+		};
+		5B508FF71FF0A40700C74FB3 /* HLLNetWorkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B508FF81FF0A40700C74FB3 /* HLLNetWorkingUITests.swift */,
+				5B508FFA1FF0A40700C74FB3 /* Info.plist */,
+			);
+			path = HLLNetWorkingUITests;
+			sourceTree = "<group>";
+		};
+		5B5090081FF0A5D200C74FB3 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				5B5090061FF0A5CD00C74FB3 /* HLLNetFactory.swift */,
+				5B50900F1FF0A65500C74FB3 /* HLLNetFactoryURLSession.swift */,
+				5B50900B1FF0A60200C74FB3 /* HLLNetFactoryAFN.swift */,
+				5B50900D1FF0A63B00C74FB3 /* HLLNetFactoryAlamofire.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		5B5090091FF0A5D700C74FB3 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				5B5090171FF0A6C800C74FB3 /* HLLSession.swift */,
+				5B5090111FF0A67800C74FB3 /* HLLURLSession.swift */,
+				5B5090191FF0A7FF00C74FB3 /* HLLAFNSession.swift */,
+				5B50901B1FF0A80B00C74FB3 /* HLLAlamofireSession.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		5BE75AE4219ABA0D00E1BDFA /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				5BE75AE0219A7A9500E1BDFA /* HLLNetConsistance.swift */,
+				5B101CCE219BD03400547DC9 /* HLLNetUtil.swift */,
+				5B101CCC219BBBB300547DC9 /* HLLNetManager.swift */,
+				5B101CCA219BB0E700547DC9 /* HLLNetHeaders.swift */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		5BE75AE5219ABA5200E1BDFA /* DataProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				5B50901D1FF0AB6700C74FB3 /* HLLURLProtocol.swift */,
+				5BE75AE2219AB7FF00E1BDFA /* HLLNetResponseProcessor.swift */,
+			);
+			path = DataProcessor;
+			sourceTree = "<group>";
+		};
+		B83C8745C3B626087C08AAA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4FC0AD636E4205A02D22A6F /* Pods_HLLNetWorking.framework */,
+				4FBA4967EAA620D89227208E /* Pods_HLLNetWorkingTests.framework */,
+				16762233B0A9D73B3A7F334E /* Pods_HLLNetWorkingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B508FD41FF0A40700C74FB3 /* HLLNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B508FFD1FF0A40700C74FB3 /* Build configuration list for PBXNativeTarget "HLLNetWorking" */;
+			buildPhases = (
+				897B29B3C33B892DE35472FA /* [CP] Check Pods Manifest.lock */,
+				5B508FD11FF0A40700C74FB3 /* Sources */,
+				5B508FD21FF0A40700C74FB3 /* Frameworks */,
+				5B508FD31FF0A40700C74FB3 /* Resources */,
+				AAE2352E19F90455D7DA7CFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLLNetWorking;
+			productName = HLLNetWorking;
+			productReference = 5B508FD51FF0A40700C74FB3 /* HLLNetWorking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B508FE81FF0A40700C74FB3 /* HLLNetWorkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5090001FF0A40700C74FB3 /* Build configuration list for PBXNativeTarget "HLLNetWorkingTests" */;
+			buildPhases = (
+				AAC6A808B880B2BBCCFF197A /* [CP] Check Pods Manifest.lock */,
+				5B508FE51FF0A40700C74FB3 /* Sources */,
+				5B508FE61FF0A40700C74FB3 /* Frameworks */,
+				5B508FE71FF0A40700C74FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B508FEB1FF0A40700C74FB3 /* PBXTargetDependency */,
+			);
+			name = HLLNetWorkingTests;
+			productName = HLLNetWorkingTests;
+			productReference = 5B508FE91FF0A40700C74FB3 /* HLLNetWorkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B508FF31FF0A40700C74FB3 /* HLLNetWorkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5090031FF0A40700C74FB3 /* Build configuration list for PBXNativeTarget "HLLNetWorkingUITests" */;
+			buildPhases = (
+				324AC22B92F1712D17E460B3 /* [CP] Check Pods Manifest.lock */,
+				5B508FF01FF0A40700C74FB3 /* Sources */,
+				5B508FF11FF0A40700C74FB3 /* Frameworks */,
+				5B508FF21FF0A40700C74FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B508FF61FF0A40700C74FB3 /* PBXTargetDependency */,
+			);
+			name = HLLNetWorkingUITests;
+			productName = HLLNetWorkingUITests;
+			productReference = 5B508FF41FF0A40700C74FB3 /* HLLNetWorkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B508FCD1FF0A40700C74FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = com.heron;
+				TargetAttributes = {
+					5B508FD41FF0A40700C74FB3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5B508FE81FF0A40700C74FB3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B508FD41FF0A40700C74FB3;
+					};
+					5B508FF31FF0A40700C74FB3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B508FD41FF0A40700C74FB3;
+					};
+				};
+			};
+			buildConfigurationList = 5B508FD01FF0A40700C74FB3 /* Build configuration list for PBXProject "HLLNetWorking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B508FCC1FF0A40700C74FB3;
+			productRefGroup = 5B508FD61FF0A40700C74FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B508FD41FF0A40700C74FB3 /* HLLNetWorking */,
+				5B508FE81FF0A40700C74FB3 /* HLLNetWorkingTests */,
+				5B508FF31FF0A40700C74FB3 /* HLLNetWorkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B508FD31FF0A40700C74FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B508FE31FF0A40700C74FB3 /* LaunchScreen.storyboard in Resources */,
+				5B508FE01FF0A40700C74FB3 /* Assets.xcassets in Resources */,
+				5B508FDE1FF0A40700C74FB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B508FE71FF0A40700C74FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B508FF21FF0A40700C74FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		324AC22B92F1712D17E460B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLLNetWorkingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		897B29B3C33B892DE35472FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLLNetWorking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC6A808B880B2BBCCFF197A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLLNetWorkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE2352E19F90455D7DA7CFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HLLNetWorking/Pods-HLLNetWorking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLLNetWorking/Pods-HLLNetWorking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B508FD11FF0A40700C74FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B50901A1FF0A7FF00C74FB3 /* HLLAFNSession.swift in Sources */,
+				5BE75AE1219A7A9500E1BDFA /* HLLNetConsistance.swift in Sources */,
+				5B5090071FF0A5CD00C74FB3 /* HLLNetFactory.swift in Sources */,
+				5B5090181FF0A6C800C74FB3 /* HLLSession.swift in Sources */,
+				5B50900E1FF0A63B00C74FB3 /* HLLNetFactoryAlamofire.swift in Sources */,
+				5B5090121FF0A67800C74FB3 /* HLLURLSession.swift in Sources */,
+				5BE75AE3219AB7FF00E1BDFA /* HLLNetResponseProcessor.swift in Sources */,
+				5B101CCB219BB0E700547DC9 /* HLLNetHeaders.swift in Sources */,
+				5B101CCF219BD03400547DC9 /* HLLNetUtil.swift in Sources */,
+				5B101CCD219BBBB300547DC9 /* HLLNetManager.swift in Sources */,
+				5B5090101FF0A65500C74FB3 /* HLLNetFactoryURLSession.swift in Sources */,
+				5B50900C1FF0A60200C74FB3 /* HLLNetFactoryAFN.swift in Sources */,
+				5BE75AE7219ABDCA00E1BDFA /* HLLViewModel.swift in Sources */,
+				5B50901E1FF0AB6700C74FB3 /* HLLURLProtocol.swift in Sources */,
+				5BE75AE9219ABE9300E1BDFA /* HLLTextView.swift in Sources */,
+				5B50901C1FF0A80B00C74FB3 /* HLLAlamofireSession.swift in Sources */,
+				5B508FDB1FF0A40700C74FB3 /* ViewController.swift in Sources */,
+				5B508FD91FF0A40700C74FB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B508FE51FF0A40700C74FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B508FEE1FF0A40700C74FB3 /* HLLNetWorkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B508FF01FF0A40700C74FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B508FF91FF0A40700C74FB3 /* HLLNetWorkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B508FEB1FF0A40700C74FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B508FD41FF0A40700C74FB3 /* HLLNetWorking */;
+			targetProxy = 5B508FEA1FF0A40700C74FB3 /* PBXContainerItemProxy */;
+		};
+		5B508FF61FF0A40700C74FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B508FD41FF0A40700C74FB3 /* HLLNetWorking */;
+			targetProxy = 5B508FF51FF0A40700C74FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B508FDC1FF0A40700C74FB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B508FDD1FF0A40700C74FB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B508FE11FF0A40700C74FB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B508FE21FF0A40700C74FB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B508FFB1FF0A40700C74FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B508FFC1FF0A40700C74FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B508FFE1FF0A40700C74FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAE670A77B678B83411C1CD /* Pods-HLLNetWorking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLNetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B508FFF1FF0A40700C74FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4FF549DFCB90BEBE7D120A /* Pods-HLLNetWorking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLNetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B5090011FF0A40700C74FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BBBB866E426DD1D88432BA /* Pods-HLLNetWorkingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLNetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLNetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLLNetWorking.app/HLLNetWorking";
+			};
+			name = Debug;
+		};
+		5B5090021FF0A40700C74FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5BF723B4FEE585EDAE36AD /* Pods-HLLNetWorkingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLNetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLNetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLLNetWorking.app/HLLNetWorking";
+			};
+			name = Release;
+		};
+		5B5090041FF0A40700C74FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CED698688A64D85AB2E90F /* Pods-HLLNetWorkingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLNetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLNetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLLNetWorking;
+			};
+			name = Debug;
+		};
+		5B5090051FF0A40700C74FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E585956E54586C858144DE /* Pods-HLLNetWorkingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLNetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bocop.HLLNetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLLNetWorking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B508FD01FF0A40700C74FB3 /* Build configuration list for PBXProject "HLLNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B508FFB1FF0A40700C74FB3 /* Debug */,
+				5B508FFC1FF0A40700C74FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B508FFD1FF0A40700C74FB3 /* Build configuration list for PBXNativeTarget "HLLNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B508FFE1FF0A40700C74FB3 /* Debug */,
+				5B508FFF1FF0A40700C74FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5090001FF0A40700C74FB3 /* Build configuration list for PBXNativeTarget "HLLNetWorkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5090011FF0A40700C74FB3 /* Debug */,
+				5B5090021FF0A40700C74FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5090031FF0A40700C74FB3 /* Build configuration list for PBXNativeTarget "HLLNetWorkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5090041FF0A40700C74FB3 /* Debug */,
+				5B5090051FF0A40700C74FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B508FCD1FF0A40700C74FB3 /* Project object */;
+}
